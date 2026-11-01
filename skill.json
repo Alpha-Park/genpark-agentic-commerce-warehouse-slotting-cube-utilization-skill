@@ -1,0 +1,47 @@
+{
+  "name": "genpark-agentic-commerce-warehouse-slotting-cube-utilization-skill",
+  "version": "1.0.0",
+  "description": "Pallet racking 3D bin packing cube utilization, Honeycombing loss quantifier & high-bay slotting reallocation.",
+  "category": "agentic_commerce",
+  "author": "GenPark AI",
+  "website": "https://www.genpark.ai",
+  "linkedin": "https://www.linkedin.com/company/92955550",
+  "main": "skills.py",
+  "tools": [
+    {
+      "name": "optimize_warehouse_cube_utilization",
+      "description": "Pallet racking 3D bin packing cube utilization, Honeycombing loss quantifier & high-bay slotting reallocation.",
+      "sample_input": {
+        "locations": [
+          {
+            "location_id": "BAY-A-101",
+            "width_in": 48,
+            "depth_in": 48,
+            "height_in": 72,
+            "cargo_width_in": 40,
+            "cargo_depth_in": 48,
+            "cargo_height_in": 42
+          },
+          {
+            "location_id": "BAY-A-102",
+            "width_in": 48,
+            "depth_in": 48,
+            "height_in": 72,
+            "cargo_width_in": 44,
+            "cargo_depth_in": 48,
+            "cargo_height_in": 68
+          },
+          {
+            "location_id": "BAY-A-103",
+            "width_in": 48,
+            "depth_in": 48,
+            "height_in": 96,
+            "cargo_width_in": 40,
+            "cargo_depth_in": 48,
+            "cargo_height_in": 50
+          }
+        ]
+      }
+    }
+  ]
+}
